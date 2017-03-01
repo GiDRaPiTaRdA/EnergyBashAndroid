@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="@drawable/o1"
+    android:gravity="center">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.02" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Settings"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04"
+        android:background="#5fffffff"
+        android:gravity="center|fill_horizontal"
+        android:textSize="20dp"
+        android:textColor="@android:color/background_light" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.04" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:weightSum="1"
+        android:gravity="bottom"
+        android:layout_weight="0.35">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.3" />
+
+        <TextView
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" Name (Your name):"
+            android:id="@+id/textView2"
+            android:layout_weight="0.2"
+            android:gravity="bottom|left"
+            android:textColor="#fbf8ff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textFilter|textPersonName"
+            android:text="Player"
+            android:ems="10"
+            android:id="@+id/pl_yourname"
+            android:layout_weight="0.275"
+            android:textColor="#000000"
+            android:background="#fff9ff"
+            android:singleLine="true"
+            android:maxLength="10"
+            android:hint="Please write player's nick here" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" Name (Friend's name):"
+            android:id="@+id/textView3"
+            android:gravity="bottom|left"
+            android:layout_weight="0.2"
+            android:textColor="#fbf8ff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Guest"
+            android:ems="10"
+            android:id="@+id/pl_friendsname"
+            android:layout_weight="0.275"
+            android:textColor="#000000"
+            android:background="#fff9ff"
+            android:singleLine="true"
+            android:textIsSelectable="false"
+            android:maxLength="10"
+            android:hint="Please write player's nick here" />
+
+    </LinearLayout>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" Sound"
+        android:id="@+id/switch1"
+        android:textColor="#fbf8ff"
+        android:layout_weight="0.05"
+        android:checked="true"
+        android:clickable="true"
+        android:background="@android:color/holo_green_dark"
+        android:onClick="CheckerSound" />
+
+    <Switch
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Music"
+        android:id="@+id/switch2"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.05"
+        android:checked="true"
+        android:clickable="true"
+        android:background="@android:color/holo_orange_dark"
+        android:onClick="CheckerSound" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:gravity="center|center_vertical"
+        android:background="@drawable/o5"
+        android:layout_weight="0.4">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/textView5"
+            android:layout_weight="0.1"
+            android:text="Themes"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:textColor="@android:color/background_light" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:id="@+id/radioButton"
+            android:textColor="#fbf8ff"
+            android:onClick="black_white"
+            android:background="@drawable/o6"
+            android:textSize="30dp"
+            android:layout_weight="0.3" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="54dp"
+            android:id="@+id/radioButton2"
+            android:textColor="#ffff00"
+            android:onClick="black_yellow"
+            android:background="@drawable/o7"
+            android:textSize="30dp"
+            android:layout_weight="0.3" />
+
+        <RadioButton
+            android:layout_width="fill_parent"
+            android:layout_height="64dp"
+            android:id="@+id/radioButton3"
+            android:textColor="#00ff00"
+            android:checked="false"
+            android:clickable="true"
+            android:onClick="multicolour"
+            android:background="@drawable/o3"
+            android:textSize="30dp"
+            android:singleLine="false"
+            android:layout_weight="0.3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="0.05"
+        android:weightSum="1"
+        android:gravity="center|right"
+        android:id="@+id/theme">
+
+        <Button
+            style="@style/Theme.Base.AppCompat.Light"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Back"
+            android:id="@+id/button"
+            android:textColor="@android:color/background_light"
+            android:textSize="20dp"
+            android:onClick="apply"
+            android:background="#ffff8800"
+            android:layout_weight="0.25" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.05" />
+
+    </LinearLayout>
+
+</LinearLayout>

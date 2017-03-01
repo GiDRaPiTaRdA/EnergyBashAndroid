@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center"
+    android:weightSum="1"
+    android:longClickable="false"
+    android:clickable="false"
+    android:id="@+id/wall"
+    android:background="@drawable/black_yellow">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:weightSum="1"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="244dp"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_gravity="center_vertical"
+        android:weightSum="1"
+        android:layout_weight="0.7">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.7" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:background="@drawable/by_singleplayer"
+            android:layout_weight="0.05"
+            android:onClick="kn1_cl"
+            android:enabled="true" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.01" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:background="@drawable/by_multiplayer"
+            android:layout_weight="0.05"
+            android:onClick="kn2_cl"
+            android:enabled="true" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.01" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:background="@drawable/by_statistic"
+            android:layout_weight="0.05"
+            android:onClick="kn3_cl"
+            android:enabled="true" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.01" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:background="@drawable/by_options"
+            android:layout_weight="0.05"
+            android:onClick="kn4_cl"
+            android:enabled="true" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.01" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:background="@drawable/by_quit"
+            android:layout_weight="0.05"
+            android:onClick="kn5_cl"
+            android:enabled="true" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.01" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.15"
+        android:weightSum="1"></LinearLayout>
+</LinearLayout>

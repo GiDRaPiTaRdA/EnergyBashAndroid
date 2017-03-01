@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\old PC\AndroidStudioProjects\SKORYupdate\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="19.1.0"
+        sha1="e1a3ddfb96bab2001a1aee1bdfddef5b506850e9">
+        <dex dex="D:\old PC\AndroidStudioProjects\SKORYupdate\app\build\intermediates\pre-dexed\debug\instant-run_33cfaf73f1d7173d415e39675b5fddb5071eb2a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\old PC\AndroidStudioProjects\SKORYupdate\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="19.1.0"
+        sha1="9e742381f11a0bfdbf1e301656c61770c751766a">
+        <dex dex="D:\old PC\AndroidStudioProjects\SKORYupdate\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_8e55f92b9d04819f8aec716685c9976f8989e6ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\old PC\AndroidStudioProjects\SKORYupdate\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="D:\old PC\AndroidStudioProjects\SKORYupdate\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-19.1.0_db91e3914e26b76f5f9d277f0b78d5cc0f4964e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Maxim\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="D:\old PC\AndroidStudioProjects\SKORYupdate\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_4372e6e2de511ca4e733e915a5fabc85b6f6ded1.jar" />
+    </item>
+
+</items>
